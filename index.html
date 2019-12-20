@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<p>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Forms Validation</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <form>
+        <p>Name:</p>
+
+        <input type="text" id="name">
+
+        <p>Address:</p>
+
+        <input type="text" id="address">
+
+        <p>E-mail Address:</p>
+
+        <input type="email" id="email">
+
+        <p>Password:</p>
+
+        <input type="password" id="password">
+
+        <p>Comments:</p>
+        <textarea id="comment"></textarea>
+        <p class="send">
+            <input type="submit" onclick="sendClick()" class="send" value="Send">
+        </p>
+        <p action="" class="reset">
+            <input type="button" onclick="resetClick()" class="reset" value="Reset">
+        </p>
+    </form>
+
+</body>
+
+
+</html>
